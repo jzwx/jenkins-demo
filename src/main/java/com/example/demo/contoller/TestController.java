@@ -22,6 +22,6 @@ public class TestController {
      */
     @GetMapping(value = "/hello")
     public String getHello(@RequestParam(value = "a") String a) {
-        return "hello,world!" + a;
+        return "hello,world!" + a+"我和我的祖国";
     }
 }
